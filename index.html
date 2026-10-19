@@ -3,28 +3,20 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-
-<!-- ============================================================
-     REPLACE THESE THREE before you publish:
-       1. <link rel="canonical">
-       2. og:url
-       3. twitter:image is fine as-is (it points at the Apviser card)
-     ============================================================ -->
-
-<title>Who is the real hero of The Lord of the Rings? — the argument, fairly set out</title>
-<meta name="description" content="Frodo carried the Ring. Sam carried Frodo. The five serious answers, the case for each, and why book readers and film watchers tend to pick differently.">
-<link rel="canonical" href="https://REPLACE-WITH-YOUR-URL/">
+<title>Samwise Gamgee is the real hero of The Lord of the Rings</title>
+<meta name="description" content="Frodo carried the Ring. That isn't the same as being the hero. An argument for Sam — with a live tally to prove me wrong, split by whether you came to it through the books or the films.">
+<link rel="canonical" href="https://apviseryasm-cpu.github.io/lotr-hero/">
 <meta name="theme-color" content="#1c1c1c">
 
 <meta property="og:type" content="article">
-<meta property="og:title" content="Who is the real hero of The Lord of the Rings?">
-<meta property="og:description" content="The five serious answers, the case for each, and why book readers and film watchers tend to pick differently.">
-<meta property="og:url" content="https://REPLACE-WITH-YOUR-URL/">
+<meta property="og:title" content="Samwise Gamgee is the real hero of The Lord of the Rings">
+<meta property="og:description" content="Frodo carried the Ring. That isn't the same as being the hero. Prove me wrong — live tally, split by books or films.">
+<meta property="og:url" content="https://apviseryasm-cpu.github.io/lotr-hero/">
 <meta property="og:image" content="https://apviser.com/ask/card-lotr.png">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="Who is the real hero of The Lord of the Rings?">
+<meta name="twitter:title" content="Samwise Gamgee is the real hero of The Lord of the Rings">
 <meta name="twitter:image" content="https://apviser.com/ask/card-lotr.png">
 
 <style>
@@ -35,34 +27,27 @@
     font-family:Georgia,"Iowan Old Style","Times New Roman",serif;
     font-size:19px;line-height:1.72;-webkit-font-smoothing:antialiased;
   }
-  .page{max-width:720px;margin:0 auto;padding:56px 22px 90px}
+  .page{max-width:720px;margin:0 auto;padding:52px 22px 90px}
   a{color:var(--accent)}
-  h1{
-    font-size:42px;line-height:1.14;letter-spacing:-.015em;color:var(--ink);
-    margin:0 0 18px;font-weight:700;
-  }
-  .standfirst{font-size:21px;color:var(--muted);margin:0 0 30px;line-height:1.5}
+  h1{font-size:39px;line-height:1.16;letter-spacing:-.015em;color:var(--ink);margin:0 0 16px;font-weight:700}
+  .standfirst{font-size:21px;color:#4a4842;margin:0 0 24px;line-height:1.5;font-style:italic}
   .byline{
     font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;
-    font-size:13.5px;color:var(--muted);margin:0 0 38px;
+    font-size:13.5px;color:var(--muted);margin:0 0 34px;
   }
   .byline a{color:var(--muted)}
-  h2{
-    font-size:25px;line-height:1.25;color:var(--ink);margin:46px 0 12px;letter-spacing:-.01em;
-  }
-  h3{font-size:19px;color:var(--ink);margin:30px 0 6px}
+  h2{font-size:24px;line-height:1.25;color:var(--ink);margin:42px 0 12px;letter-spacing:-.01em}
   p{margin:0 0 19px}
   em{font-style:italic}
-  .rule{border:0;border-top:1px solid var(--rule);margin:44px 0}
-  .case{border-left:3px solid var(--rule);padding-left:18px;margin:0 0 26px}
-  .case h3{margin-top:0}
-  .case p:last-child{margin-bottom:0}
-  .hook{
-    background:#fff;border:1px solid var(--rule);border-radius:10px;
-    padding:22px 24px;margin:34px 0;
+  .rule{border:0;border-top:1px solid var(--rule);margin:40px 0}
+  blockquote{
+    margin:28px 0;padding:0 0 0 22px;border-left:3px solid var(--accent);
+    font-size:20px;line-height:1.55;color:var(--ink);font-style:italic;
   }
-  .hook p:last-child{margin-bottom:0}
-  .pollwrap{margin:40px 0 10px}
+  blockquote p:last-child{margin-bottom:0}
+  .claim{background:#fff;border:1px solid var(--rule);border-radius:10px;padding:20px 22px;margin:32px 0}
+  .claim p:last-child{margin-bottom:0}
+  .pollwrap{margin:34px 0 10px}
   .pollwrap iframe{
     width:100%;max-width:720px;height:1150px;border:0;display:block;
     background:#fff;border:1px solid var(--rule);border-radius:10px;
@@ -73,153 +58,126 @@
   }
   footer{
     font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;
-    font-size:14px;color:var(--muted);margin-top:56px;padding-top:22px;
+    font-size:14px;color:var(--muted);margin-top:52px;padding-top:22px;
     border-top:1px solid var(--rule);line-height:1.6;
   }
   footer strong{color:var(--ink)}
   @media (max-width:600px){
     body{font-size:17.5px}
-    h1{font-size:31px}
+    h1{font-size:30px}
     .standfirst{font-size:18px}
-    .page{padding:38px 18px 70px}
+    .page{padding:36px 18px 70px}
     .pollwrap iframe{height:1250px}
+    blockquote{font-size:18.5px}
   }
 </style>
 </head>
 <body>
 <article class="page">
 
-  <h1>Who is the real hero of <em>The Lord of the Rings</em>?</h1>
+  <h1>Samwise Gamgee is the real hero of <em>The Lord of the Rings</em></h1>
   <p class="standfirst">
-    Frodo carried the Ring. Sam carried Frodo. Five serious answers exist, all of them defensible,
-    and which one you find obvious says a lot about how you met the story.
+    Frodo carried the Ring. That is not the same thing as being the hero.
   </p>
   <p class="byline">
-    Written by <a href="https://apviser.com/">Apviser</a>, who built the tally at the bottom of this page.
-  </p>
-
-  <p>
-    This is one of those arguments that never resolves, because everyone is answering a slightly
-    different question. <em>Who did the most good? Who suffered most? Who could the story not
-    survive without?</em> Pick a different one of those and you get a different hero.
-  </p>
-  <p>
-    So before you decide, here is the strongest version of each case — including the ones people
-    usually leave out.
+    Written by <a href="https://apviser.com/">Apviser</a>. There is a live tally at the bottom, and
+    I would genuinely like you to prove me wrong.
   </p>
 
   <hr class="rule">
 
-  <h2>The five real answers</h2>
-
-  <div class="case">
-    <h3>Frodo Baggins</h3>
-    <p>
-      He is the one who actually did it, in the plainest sense: he carried the thing. For seventeen
-      quiet years in the Shire first, and then — when it mattered — <em>into</em> Mordor, with the
-      Ring getting heavier and more persuasive every mile, while it slowly ate his memory of the
-      Shire and his ability to be a person.
-    </p>
-    <p>
-      The usual objection is that he failed at the end — he claimed the Ring on the slopes of Mount
-      Doom rather than throwing it in. But that is arguably the point rather than a flaw: nobody
-      could have done it. Frodo got the Ring further than any being in Middle-earth's history, and
-      the failure at the last step was the failure everyone would have had.
-    </p>
-  </div>
-
-  <div class="case">
-    <h3>Samwise Gamgee</h3>
-    <p>
-      The case for Sam is emotional, and it is very hard to argue with. He is the only person who
-      goes the entire distance for no reason other than love, with no destiny, no prophecy and no
-      crown waiting at the end. He carries Frodo physically up the mountain when Frodo's legs stop
-      working.
-    </p>
-    <p>
-      The detail people raise most is the Ring itself. Sam takes it, briefly, on the pass of Cirith
-      Ungol — and then he gives it back. He is the only person in the story who picks the Ring up and
-      voluntarily puts it down again. If the test of a hero is what you do when the worst thing in
-      the world is in your hand, that is a short and devastating argument.
-    </p>
-  </div>
-
-  <div class="case">
-    <h3>Aragorn</h3>
-    <p>
-      Without Aragorn, the Ring never reaches Mordor at all — because nothing distracts Sauron. He
-      is the one who unites Rohan and Gondor, walks the Paths of the Dead, and then marches an army
-      to the Black Gate on a deliberate suicide mission to draw Sauron's eye away from two hobbits
-      crawling up a mountain.
-    </p>
-    <p>
-      He is also the only major character whose arc is about <em>accepting</em> greatness rather
-      than resisting temptation — and the films lean on that heavily, handing him the crowning, the
-      charge and the big speeches. Which may be why he comes up so often from people who met the
-      story on screen.
-    </p>
-  </div>
-
-  <div class="case">
-    <h3>Gandalf</h3>
-    <p>
-      Nothing happens without him. He works out what the Ring is, he is the one who insists it
-      cannot be used, he survives Moria, and he spends the rest of the story arranging everyone
-      else's courage — including, famously, letting others make the decisions rather than making
-      them himself.
-    </p>
-    <p>
-      The counter-argument is that Gandalf is a Maia sent back by higher authority, so his heroism
-      is more like a job than a choice. Which is a fair objection and also exactly the kind of thing
-      that makes people pick him anyway.
-    </p>
-  </div>
-
-  <div class="case">
-    <h3>Gollum</h3>
-    <p>
-      The answer nobody wants, and the one the book arguably forces on you. Frodo could not destroy
-      the Ring. Nobody could. It goes into the fire because Gollum dances on the edge of the Crack
-      of Doom in triumph, and slips.
-    </p>
-    <p>
-      And the reason Gollum is <em>there</em> is Frodo's mercy — twice over. If Frodo had killed him
-      when he had every reason to, the Ring survives and Sauron wins. On that reading the destruction
-      of the Ring is not an act of will at all. It is the delayed consequence of a kindness.
-    </p>
-  </div>
-
-  <hr class="rule">
-
-  <h2>Why people disagree — and why you can often guess their answer</h2>
   <p>
-    There is a fairly reliable pattern in this argument, and it follows how you met the story.
-  </p>
-  <p>
-    The <strong>books</strong> spend a great deal of time inside Sam's head. You get his fear, his
-    homesickness, his bewilderment at Frodo's distance, and his stubbornness. Readers who came to
-    the story that way tend to see the emotional centre of it sitting with him — and the ending
-    lands differently, because the last stretch belongs to Sam in a way it doesn't quite on screen.
-  </p>
-  <p>
-    The <strong>films</strong> give their big moments to Frodo and to Aragorn: the scope, the
-    sacrifices, the crowning. Viewers who met Middle-earth on screen are often answering a question
-    about who the <em>lead</em> was, which is a subtly different question from who the hero was.
+    First, the case against me, because it deserves to be stated properly. Frodo carried the Ring
+    for seventeen years in the Shire, and then carried it into Mordor knowing he probably would not
+    come back. It grew heavier. It ate his memories of home. He volunteered when nobody else would,
+    and that is not nothing.
   </p>
 
-  <div class="hook">
+  <h2>But he didn't actually do it</h2>
+  <p>
+    At the Crack of Doom, Frodo does not throw the Ring into the fire. He claims it.
+  </p>
+
+  <blockquote>
+    <p>&ldquo;I have come,&rdquo; he said. &ldquo;But I do not choose now to do what I came to do. I will not do this deed. The Ring is mine!&rdquo;</p>
+  </blockquote>
+
+  <p>
+    The Ring is destroyed because Gollum — dancing on the edge in triumph, having just bitten off
+    the finger — slips and falls. Not because of Frodo's will. Because of an accident, in the middle
+    of a celebration.
+  </p>
+  <p>
+    The generous reading is that nobody could have done it, and Frodo got the Ring further than any
+    being in history. I agree. <strong>But look at what that concedes.</strong> The person usually
+    called the hero got the Ring to the door and could not open it.
+  </p>
+
+  <h2>The test the book actually sets</h2>
+  <p>
+    Tolkien's Ring is a machine for finding out what people are like under pressure. Gandalf will
+    not touch it. Galadriel passes, barely. Boromir fails inside a few hundred pages.
+  </p>
+  <p>
+    Sam takes it. On the pass of Cirith Ungol, believing Frodo dead, he puts it on — and is offered
+    the vision of Samwise the Strong, hero of the age, striding through a burning land with armies
+    at his command. He puts it down again, because he wants his garden more.
+  </p>
+  <p>
+    <strong>He is the only person in the story who picks the Ring up and voluntarily puts it back
+    down.</strong> Not resisted it from a distance. Not refused to touch it. Held it, was offered
+    everything, and handed it over.
+  </p>
+  <p>
+    If the Ring is the test, Sam is the only one who passed it at close range. That seems to me a
+    better definition of heroism than carrying it well until you crack.
+  </p>
+
+  <h2>And he had nothing to gain</h2>
+  <p>
+    Aragorn is reclaiming a throne. Gandalf is on a mission. Frodo has the world's expectation
+    placed on him and accepts it — admirable, but a burden he was handed.
+  </p>
+  <p>
+    Sam goes because Frodo is going and Sam is not letting him go alone. No crown, no prophecy, no
+    songs written about him in advance. And when Frodo's legs stop working on the last climb, Sam
+    physically carries him up the mountain. There is no version of the story where the Ring is
+    destroyed without Sam doing that.
+  </p>
+
+  <h2>"He's just the sidekick"</h2>
+  <p>
+    Tolkien's whole theme is that the great and powerful cannot fix this, and the small and
+    unregarded do the work. Sam is that theme in a person. If the book means what it says about the
+    value of the ordinary, then the hobbit who carries the hero up the mountain is not a supporting
+    character. He is the argument.
+  </p>
+
+  <h2>So why does everyone say Frodo?</h2>
+  <p>
+    I think it depends on how you met the story. The books live inside Sam's head — his fear, his
+    homesickness, his bafflement at how far away Frodo has gone. The films give their big moments to
+    Frodo and Aragorn: the sacrifices, the crowning, the close-ups. If that was your version, you
+    may be answering a slightly different question — <em>who was the lead</em> — and answering it
+    correctly.
+  </p>
+
+  <div class="claim">
     <p>
-      <strong>That is a hypothesis, not a finding.</strong> It is the reason the tally below is split
-      by how you came to the story — book first, film first, or both together. If the pattern is real,
-      it will show up. If it isn't, the tally will say so, and that is just as interesting.
+      <strong>That's a real prediction, so I built something that can test it.</strong> The tally
+      below asks who you think the real hero is, and which version you came to first. If I am
+      right, the book-first answers lean Sam and the film-first answers lean Frodo.
+    </p>
+    <p>
+      If they don't — if everyone says Frodo regardless — my theory is wrong and the whole
+      books-versus-films explanation is nonsense. I would rather find that out than keep asserting
+      it.
     </p>
   </div>
 
-  <h2>What the room actually thinks</h2>
+  <h2>Prove me wrong</h2>
   <p>
-    Below is a live tally. It updates as people answer, and it shows the split by how each person
-    met the story — so you can see whether book readers and film watchers really are answering
-    different questions. Two taps, no signup.
+    Two taps, no signup. It updates as answers come in, and it shows how each group answered.
   </p>
 
   <div class="pollwrap">
@@ -227,36 +185,34 @@
             title="Live poll: who is the real hero of The Lord of the Rings?"
             loading="lazy"></iframe>
     <p class="pollnote">
-      The tally is open to anyone and takes two taps.
-      <a href="https://apviser.com/ask/poll.php?p=lord-of-the-rings">Open it full screen</a>
-      if the frame gives you trouble.
+      If the frame gives you trouble,
+      <a href="https://apviser.com/ask/poll.php?p=lord-of-the-rings">open the tally full screen</a>.
     </p>
   </div>
 
-  <h2>Still undecided?</h2>
+  <h2>And the honest bit</h2>
   <p>
-    Then answer the question this way instead: <em>if you removed exactly one person from the story
-    and everything else stayed as it was, whose removal loses you the Ring?</em>
+    I might be wrong. If the tally comes back overwhelmingly Frodo, I will say so — and the most
+    interesting thing will not be that I lost, it will be whether the split by books and films
+    showed up at all.
   </p>
   <p>
-    It is Frodo, and it is Sam, and it is Gollum — which is probably why this argument has run for
-    seventy years and will run for seventy more.
+    This argument has run for seventy years without a resolution. It has never once had a count.
   </p>
 
   <footer>
     <p>
-      <strong>This page was written by Apviser</strong>, and the tally embedded above is ours too.
-      We build short public polls that show how different groups answered instead of one average —
-      that's the whole product, and it's why this page is split by book and film rather than just
-      counting votes.
+      <strong>Written by Apviser</strong>, and the tally is ours too — we build short public polls
+      that show how different groups answered instead of one overall average. That is the whole
+      product, and it is why this one is split by books and films rather than simply counted.
     </p>
     <p>
       No account, no email address needed to answer. What we store:
       <a href="https://apviser.com/privacy-policy.php">privacy policy</a>.
     </p>
     <p>
-      <em>The Lord of the Rings</em> is the work of J.R.R. Tolkien and its adaptations belong to their
-      rights holders. This page is unaffiliated commentary.
+      <em>The Lord of the Rings</em> is the work of J.R.R. Tolkien and its adaptations belong to
+      their rights holders. This page is unaffiliated commentary.
     </p>
   </footer>
 
